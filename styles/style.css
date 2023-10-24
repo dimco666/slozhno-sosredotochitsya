@@ -135,7 +135,7 @@ line-height: 25px; /* 138.889% */
 
 .content__section {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -173,6 +173,7 @@ line-height: 23.4px; /* 130% */
 .card {
   display: grid;
   gap: 10px;
+  height: max-content;
 }
 
 .why-hard-concentrate__card {
@@ -190,4 +191,27 @@ line-height: 23.4px; /* 130% */
 
 .fall-concentrate__title {
   grid-column: span 3;
+}
+
+.how-concentrate {
+  grid-template-rows: repeat(6, max-content);
+}
+
+.how-concentrate__title {
+  color: #FF0070;
+font-family: IBM Plex Mono;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 23.4px; /* 130% */
+grid-row: span 6;
+}
+
+.how-concentrate__card {
+  grid-column: span 2;
+  font-weight: 400;
+}
+
+.subtitle {
+  grid-column: span 2;
 }
