@@ -19,3 +19,15 @@
   */
   background-image: var(--bkg-image);
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+        /* Дублируем переменные светлой темы */ 
+        --accent-color: #FF8DCB;
+        --bkg-image: url(/images/cover-image-light.png);
+        --main-text-color: #353430;
+        --title-card-color: #353430;
+        --main-title-color: #FFC2E6;
+        --shadow-color: #FF0070;
+    }
+}
