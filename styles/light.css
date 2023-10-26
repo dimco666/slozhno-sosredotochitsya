@@ -101,6 +101,33 @@
 text-shadow: 2px 2px 0px var(--shadow-color);
 }
 
+.card__link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--main-text-color);
+}
+
+.card__link:focus {
+  outline: none;
+  border: none;
+}
+
+.card__link:focus-visible {
+  border: 1px solid var(--main-text-color);
+}
+
+.header__theme-menu-item:hover {
+  outline: 1px solid rgba(50, 49, 45, 0.40);
+}
+
+.header__theme-menu-item:focus {
+  outline: none;
+  border: none;
+}
+
+.header__theme-menu-item:focus-visible {
+  border-bottom: 1px solid var(--decorate-color);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
         --accent-color: #FF8DCB;
