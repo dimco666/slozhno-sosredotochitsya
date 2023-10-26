@@ -41,37 +41,37 @@
 }
 
 .header__title {
-font-family: IBM Plex Mono;
-font-size: 157px;
-font-style: normal;
-font-weight: 700;
-line-height: 82.5%; /* 129.525px */
-align-self: center;
-margin-left: -20px;
-white-space: nowrap;
+  font-family: IBM Plex Mono;
+  font-size: 157px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82.5%; /* 129.525px */
+  align-self: center;
+  margin-left: -20px;
+  white-space: nowrap;
 }
 
 .header__text {
   width: 50%;
   height: min-content;
-font-family: IBM Plex Mono;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 23.4px; /* 130% */
-justify-self: end;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
+  justify-self: end;
 }
 
 .header__theme-menu-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-text-align: center;
-font-family: IBM Plex Mono;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 18px; /* 100% */
+  text-align: center;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 100% */
 }
 
 .header__theme-menu-button {
@@ -100,27 +100,27 @@ line-height: 18px; /* 100% */
 }
 
 .why-hard-concentrate__title {
-font-family: IBM Plex Mono;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 23.4px; /* 130% */
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
 }
 
 .card__title {
-font-family: IBM Plex Mono;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 23.4px; /* 130% */
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
 }
 
 .card__text {
-font-family: IBM Plex Mono;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 23.4px; /* 130% */
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.4px; /* 130% */
 }
 
 .card {
@@ -138,11 +138,11 @@ line-height: 23.4px; /* 130% */
 }
 
 .fall-concentrate__title {
-font-family: IBM Plex Mono;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 23.4px; /* 130% */
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
 }
 
 .fall-concentrate__title {
@@ -154,12 +154,12 @@ line-height: 23.4px; /* 130% */
 }
 
 .how-concentrate__title {
-font-family: IBM Plex Mono;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 23.4px; /* 130% */
-grid-row: span 6;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
+  grid-row: span 6;
 }
 
 .how-concentrate__card {
@@ -259,39 +259,39 @@ grid-row: span 6;
 }
 
 .footer__title {
-font-family: IBM Plex Mono;
-font-size: 157px;
-font-style: normal;
-font-weight: 700;
-line-height: 82.5%; /* 129.525px */
-justify-self: center;
-align-self: center;
+  font-family: IBM Plex Mono;
+  font-size: 157px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82.5%; /* 129.525px */
+  justify-self: center;
+  align-self: center;
 }
 
-@media ( 375px < width <= 768px) {
-    .header__title {
-      font-size: 120px;
-    }
+@media (375px < width <= 768px) {
+  .header__title {
+    font-size: 120px;
+  }
 
-    .footer__title {
-      font-size: 120px;
-    }
+  .footer__title {
+    font-size: 120px;
+  }
 
-    .header__theme-menu {
-      justify-self: end;
-      align-self: start;
-      margin-top: 146px;
-    }
+  .header__theme-menu {
+    justify-self: end;
+    align-self: start;
+    margin-top: 146px;
+  }
 
-    .header__theme-menu-list {
-      display: flex;
-      flex-direction: column;
-    }
+  .header__theme-menu-list {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .fall-concentrate {
-      display: flex;
-      flex-direction: column;
-    }
+  .fall-concentrate {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (width <= 375px) {
@@ -307,7 +307,6 @@ align-self: center;
   .header__title {
     font-size: 116px;
     white-space: wrap;
-
   }
 
   .header__text {

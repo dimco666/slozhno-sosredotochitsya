@@ -4,13 +4,13 @@
   переключая тему
 */
 .theme-dark {
-  --accent-color: #FF0070;
+  --accent-color: #ff0070;
   --bkg-image: url(/images/cover-image-dark.png);
-  --main-text-color: #F1B2CE;
+  --main-text-color: #f1b2ce;
   --title-card-color: #000028;
-  --main-title-color: #DB00FF;
-  --shadow-color: #FF0070;
-  --decorate-color: #FF0070;
+  --main-title-color: #db00ff;
+  --shadow-color: #ff0070;
+  --decorate-color: #ff0070;
 }
 
 .page.theme_dark {
@@ -18,13 +18,13 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --accent-color: #FF0070;
+  --accent-color: #ff0070;
   --bkg-image: url(/images/cover-image-dark.png);
-  --main-text-color: #F1B2CE;
+  --main-text-color: #f1b2ce;
   --title-card-color: #000028;
-  --main-title-color: #DB00FF;
-  --shadow-color: #FF0070;
-  --decorate-color: #FF0070;
+  --main-title-color: #db00ff;
+  --shadow-color: #ff0070;
+  --decorate-color: #ff0070;
 }
 
 .page {
@@ -67,13 +67,13 @@
   position: absolute;
   top: 20px;
   right: 48px;
-  color: #FF0070;
-text-align: center;
-font-family: IBM Plex Mono;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 25px; /* 138.889% */
+  color: #ff0070;
+  text-align: center;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
 }
 
 .rec::after {
@@ -126,12 +126,12 @@ line-height: 25px; /* 138.889% */
 
 .footer__title {
   color: var(--main-title-color);
-text-shadow: 2px 2px 0px var(--shadow-color);
+  text-shadow: 2px 2px 0px var(--shadow-color);
 }
 
 .card__link:hover {
   text-decoration: underline;
-  text-decoration-color: #F1B2CE;
+  text-decoration-color: #f1b2ce;
 }
 
 .card__link:focus {
@@ -140,11 +140,11 @@ text-shadow: 2px 2px 0px var(--shadow-color);
 }
 
 .card__link:focus-visible {
-  outline: 1px solid #F1B2CE;
+  outline: 1px solid #f1b2ce;
 }
 
 .header__theme-menu-item:hover {
-  outline: 1px solid rgba(255, 0, 112, 0.40);
+  outline: 1px solid rgba(255, 0, 112, 0.4);
 }
 
 .header__theme-menu-item:focus {
