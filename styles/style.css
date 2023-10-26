@@ -293,3 +293,43 @@ align-self: center;
       flex-direction: column;
     }
 }
+
+@media (width <= 375px) {
+  .page {
+    width: 100vw;
+  }
+
+  .header {
+    padding: 10px;
+    max-height: 668px;
+  }
+
+  .header__title {
+    font-size: 116px;
+    white-space: wrap;
+
+  }
+
+  .header__text {
+    width: 100%;
+  }
+
+  .content__section {
+    display: block;
+  }
+
+  .header__theme-menu {
+    justify-self: end;
+    align-self: start;
+    margin-top: 65px;
+  }
+
+  .header__theme-menu-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__title {
+    font-size: 116px;
+  }
+}
