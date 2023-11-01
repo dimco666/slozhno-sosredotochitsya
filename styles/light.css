@@ -12,6 +12,7 @@
   --shadow-color: #ff0070;
   --decorate-color: #353430;
   --outline-color: rgba(50, 49, 45, 0.4);
+  --decorate-rec: none;
 }
 
 .page.theme_light {
@@ -27,6 +28,7 @@
   --shadow-color: #ff0070;
   --decorate-color: #353430;
   --outline-color: rgba(50, 49, 45, 0.4);
+  --decorate-rec: none;
 }
 
 .page {
@@ -130,6 +132,10 @@
   border-bottom: 1px solid var(--decorate-color);
 }
 
+.rec {
+  display: var(--decorate-rec);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
@@ -140,5 +146,6 @@
     --shadow-color: #ff0070;
     --decorate-color: #353430;
     --outline-color: rgba(50, 49, 45, 0.4);
+    --decorate-rec: none;
   }
 }

@@ -362,7 +362,7 @@
   }
 }
 
-@media (color-scheme: light) {
+@media (prefers-color-scheme: light) {
   .rec {
     display: none;
   }

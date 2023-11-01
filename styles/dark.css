@@ -12,6 +12,7 @@
   --shadow-color: #ff0070;
   --decorate-color: #ff0070;
   --outline-color: rgba(255, 0, 112, 0.4);
+  --decorate-rec: block;
 }
 
 .page.theme_dark {
@@ -27,6 +28,7 @@
   --shadow-color: #ff0070;
   --decorate-color: #ff0070;
   --outline-color: rgba(255, 0, 112, 0.4);
+  --decorate-rec: block;
 }
 
 .page {
@@ -128,4 +130,8 @@
 
 .header__theme-menu-item:focus-visible {
   border-bottom: 1px solid var(--decorate-color);
+}
+
+.rec {
+  display: var(--decorate-rec);
 }
