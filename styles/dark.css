@@ -11,6 +11,7 @@
   --main-title-color: #db00ff;
   --shadow-color: #ff0070;
   --decorate-color: #ff0070;
+  --outline-color: rgba(255, 0, 112, 0.4);
 }
 
 .page.theme_dark {
@@ -25,6 +26,7 @@
   --main-title-color: #db00ff;
   --shadow-color: #ff0070;
   --decorate-color: #ff0070;
+  --outline-color: rgba(255, 0, 112, 0.4);
 }
 
 .page {
@@ -69,7 +71,7 @@
   right: 48px;
   color: #ff0070;
   text-align: center;
-  font-family: IBM Plex Mono;
+  font-family: IBM Plex Mono, Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -144,7 +146,7 @@
 }
 
 .header__theme-menu-item:hover {
-  outline: 1px solid rgba(255, 0, 112, 0.4);
+  outline: 1px solid var(--outline-color);
 }
 
 .header__theme-menu-item:focus {

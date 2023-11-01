@@ -11,6 +11,7 @@
   --main-title-color: #ffc2e6;
   --shadow-color: #ff0070;
   --decorate-color: #353430;
+  --outline-color: rgba(50, 49, 45, 0.4);
 }
 
 .page.theme_light {
@@ -25,6 +26,7 @@
   --main-title-color: #ffc2e6;
   --shadow-color: #ff0070;
   --decorate-color: #353430;
+  --outline-color: rgba(50, 49, 45, 0.4);
 }
 
 .page {
@@ -116,7 +118,7 @@
 }
 
 .header__theme-menu-item:hover {
-  outline: 1px solid rgba(50, 49, 45, 0.4);
+  outline: 1px solid var(--outline-color);
 }
 
 .header__theme-menu-item:focus {
@@ -136,5 +138,7 @@
     --title-card-color: #353430;
     --main-title-color: #ffc2e6;
     --shadow-color: #ff0070;
+    --decorate-color: #353430;
+    --outline-color: rgba(50, 49, 45, 0.4);
   }
 }
