@@ -301,6 +301,10 @@
 }
 
 @media (768px <= width < 1024px) {
+  .header {
+    min-height: 1024px;
+  }
+
   .header__title {
     font-size: 120px;
     white-space: normal;
@@ -380,6 +384,30 @@
     padding: 10px;
     min-height: 667px;
   }
+
+  .why-hard-concentrate__title {
+    margin-bottom: 20px;
+  }
+
+  .fall-concentrate__title {
+    margin-bottom: 20px;
+  }
+
+  .how-concentrate__title {
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    margin-bottom: 20px;
+  }
+
+  .grid-gallery__subtitle {
+    margin-bottom: 10px;
+  }
+
+  .card:not(:last-child) {
+    margin-bottom: 20px;
+  }
 }
 
 @media (width < 375px) {
@@ -430,6 +458,30 @@
   .footer {
     padding: 10px;
     min-height: 667px;
+  }
+
+  .why-hard-concentrate__title {
+    margin-bottom: 20px;
+  }
+
+  .fall-concentrate__title {
+    margin-bottom: 20px;
+  }
+
+  .how-concentrate__title {
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    margin-bottom: 20px;
+  }
+
+  .grid-gallery__subtitle {
+    margin-bottom: 10px;
+  }
+
+  .card:not(:last-child) {
+    margin-bottom: 20px;
   }
 }
 
