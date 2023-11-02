@@ -14,7 +14,7 @@
   height: 100vh;
   position: relative;
   z-index: 0;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 1fr min-content 1fr;
 }
 
 .header::before {
@@ -61,6 +61,7 @@
   font-weight: 700;
   line-height: 23.4px; /* 130% */
   justify-self: end;
+  align-self: center;
 }
 
 .header__theme-menu-list {
