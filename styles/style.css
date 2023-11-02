@@ -14,6 +14,7 @@
   height: 100vh;
   position: relative;
   z-index: 0;
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .header::before {
@@ -158,6 +159,7 @@
 .card {
   display: grid;
   gap: 10px;
+  grid-template-rows: min-content;
 }
 
 .card__link {
