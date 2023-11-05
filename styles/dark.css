@@ -5,7 +5,7 @@
 */
 .theme-dark {
   --accent-color: #ff0070;
-  --bkg-image: url(/images/cover-image-dark.png);
+  --bkg-image: url(../images/cover-image-dark.png);
   --main-text-color: #f1b2ce;
   --title-card-color: #000028;
   --main-title-color: #db00ff;
@@ -21,7 +21,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #ff0070;
-  --bkg-image: url(/images/cover-image-dark.png);
+  --bkg-image: url(../images/cover-image-dark.png);
   --main-text-color: #f1b2ce;
   --title-card-color: #000028;
   --main-title-color: #db00ff;

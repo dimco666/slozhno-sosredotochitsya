@@ -5,7 +5,7 @@
 */
 .theme-light {
   --accent-color: #ff8dcb;
-  --bkg-image: url(/images/cover-image-light.png);
+  --bkg-image: url(../images/cover-image-light.png);
   --main-text-color: #353430;
   --title-card-color: #353430;
   --main-title-color: #ffc2e6;
@@ -21,7 +21,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #ff8dcb;
-  --bkg-image: url(/images/cover-image-light.png);
+  --bkg-image: url(../images/cover-image-light.png);
   --main-text-color: #353430;
   --title-card-color: #353430;
   --main-title-color: #ffc2e6;
@@ -139,7 +139,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
-    --bkg-image: url(/images/cover-image-light.png);
+    --bkg-image: url(../images/cover-image-light.png);
     --main-text-color: #353430;
     --title-card-color: #353430;
     --main-title-color: #ffc2e6;
