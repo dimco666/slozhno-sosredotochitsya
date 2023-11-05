@@ -79,6 +79,7 @@
 .header__theme-menu-button {
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .header__theme-menu-button_active {
@@ -227,6 +228,7 @@
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  height: 260px;
 }
 
 .grid-gallery__ice-cream {
@@ -234,6 +236,7 @@
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 4;
+  height: 595px;
 }
 
 .grid-gallery__books {
@@ -241,6 +244,7 @@
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
+  height: 315px;
 }
 
 .grid-gallery__tape {
@@ -248,6 +252,7 @@
   grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 5;
+  height: 768px;
 }
 
 .grid-gallery__street {
@@ -255,6 +260,7 @@
   grid-column-end: 4;
   grid-row-start: 4;
   grid-row-end: 5;
+  height: 428px;
 }
 
 .grid-gallery__item {
@@ -318,10 +324,15 @@
     justify-self: end;
     align-self: start;
     margin-top: 176px;
+    margin-right: 6px;
   }
 
   .fall-concentrate__title {
-    word-wrap: break-word;
+    width: min-content;
+  }
+
+  .content__section {
+    grid-template-columns: 236px 1fr 1fr;
   }
 
   .header__theme-menu-list {
@@ -337,6 +348,26 @@
 
   .footer {
     min-height: 1024px;
+  }
+
+  .grid-gallery__sunset {
+    height: 192px;
+  }
+  
+  .grid-gallery__ice-cream {
+    height: 441px;
+  }
+  
+  .grid-gallery__books {
+    height: 230px;
+  }
+  
+  .grid-gallery__tape {
+    height: 568px;
+  }
+  
+  .grid-gallery__street {
+    height: 318px;
   }
 }
 
@@ -430,6 +461,10 @@
   .card:not(:last-child) {
     margin-bottom: 20px;
   }
+  
+  .grid-gallery__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 
 @media (width < 375px) {
@@ -521,6 +556,10 @@
 
   .card:not(:last-child) {
     margin-bottom: 20px;
+  }
+
+  .grid-gallery__item:not(:last-child) {
+    margin-bottom: 10px;
   }
 }
 
