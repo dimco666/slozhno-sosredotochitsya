@@ -465,6 +465,26 @@
   .grid-gallery__item:not(:last-child) {
     margin-bottom: 10px;
   }
+
+  .grid-gallery__sunset {
+    height: 142px;
+  }
+  
+  .grid-gallery__ice-cream {
+    height: 355px;
+  }
+  
+  .grid-gallery__books {
+    height: 355px;
+  }
+  
+  .grid-gallery__tape {
+    height: 237px;
+  }
+  
+  .grid-gallery__street {
+    height: 237px;
+  }
 }
 
 @media (width < 375px) {
@@ -560,6 +580,26 @@
 
   .grid-gallery__item:not(:last-child) {
     margin-bottom: 10px;
+  }
+
+  .grid-gallery__sunset {
+    height: 142px;
+  }
+  
+  .grid-gallery__ice-cream {
+    height: 355px;
+  }
+  
+  .grid-gallery__books {
+    height: 355px;
+  }
+  
+  .grid-gallery__tape {
+    height: 237px;
+  }
+  
+  .grid-gallery__street {
+    height: 237px;
   }
 }
 
