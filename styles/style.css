@@ -9,8 +9,8 @@
 
 .header {
   display: grid;
-  padding: 30px;
-  min-height: 568px;
+  padding: 20px;
+  min-height: 668px;
   height: 100vh;
   position: relative;
   z-index: 0;
